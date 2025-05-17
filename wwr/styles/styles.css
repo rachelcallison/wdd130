@@ -1,0 +1,113 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#background {
+    height: 725px;
+    background-color: #BFD1E5;
+}
+
+nav a {
+    text-align: center;
+    color: #0B132B;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #034732;
+    background-color: #D8BFAA;
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: #BFD1E5;
+}
+
+header {
+    background-color: #BFD1E5;
+}
+
+footer {
+    color: #0B132B;
+    background-color: #BFD1E5;
+}
+
+footer a {
+    color: #0B132B;
+}
+
+footer a:hover {
+    color: #0B132B;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+h4 {
+    color:#0B132B;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book {
+    color:#0B132B;
+    background-color: #BFD1E5;
+}
+
+.join {
+    color: #0B132B;
+    background-color: #BFD1E5;
+}
+.book:hover {
+    color: #0B132B;
+    background-color: #BFD1E5;
+}
+
+.join:hover {
+    color: #0B132B;
+    background-color: #BFD1E5;
+}
+
+.msg {
+    background-color: #BFD1E5;
+}
+
+.msg h2 {
+    color: #0B132B;
+}
+
+.msg p {
+    color: #0B132B;
+}
+
+.home-title {
+    color: #0B132B;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
