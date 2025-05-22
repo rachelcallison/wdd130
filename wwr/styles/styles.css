@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&family=Rubik+Puddles&family=Sniglet:wght@400;800&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -20,10 +23,15 @@
     background-color: #BFD1E5;
 }
 
+#link_logo {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: #0B132B;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -35,8 +43,16 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #BFD1E5;
+    font-family: "Sniglet", "Roboto", "Lato", "Helvetica", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -46,16 +62,20 @@ header {
 footer {
     color: #0B132B;
     background-color: #BFD1E5;
+    padding: 25px 50px;
+     padding-top: 15px;
 }
 
 footer a {
     color: #0B132B;
+    padding: 25px;
+    margin-top: 200px;
 }
 
 footer a:hover {
     color: #0B132B;
     text-decoration: underline;
-}
+} 
 
 footer p {
     font-size: 1.2em;
@@ -65,19 +85,23 @@ h4 {
     color:#0B132B;
 }
 
+h2 {
+    margin: 0;
+}
+
 .button-box {
     text-align: center;
 }
 
-.book {
+.book, .join {
     color:#0B132B;
     background-color: #BFD1E5;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.join {
-    color: #0B132B;
-    background-color: #BFD1E5;
-}
 .book:hover {
     color: #0B132B;
     background-color: #BFD1E5;
@@ -90,18 +114,26 @@ h4 {
 
 .msg {
     background-color: #BFD1E5;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #0B132B;
+    font-family: "rubik doodle shadow", "IM Fell French Canon";
 }
 
 .msg p {
     color: #0B132B;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .home-title {
     color: #0B132B;
+    font-family: "rubik doodle shadow", "IM Fell French Canon";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo {
@@ -110,4 +142,25 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.gear-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px #000000;
 }
