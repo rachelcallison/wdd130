@@ -9,7 +9,7 @@
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    margin-top: -200px;
 }
 
 #hero-box {
