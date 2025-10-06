@@ -29,7 +29,7 @@ h4 {
 }
 
 header {
-    background-color: #275D2B;
+    background-color: #00335E;
     color: #FD6902;
 }
 
@@ -75,11 +75,8 @@ nav a:header {
     margin: 0 auto;
 }
 
-hero-img {
-    width: 100%;
-}
 
-#hero-msg h1 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
