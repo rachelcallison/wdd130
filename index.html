@@ -2,18 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=git init, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Personal Site</title>
 </head>
 <body>
-    <h1>Welcome to WDD130 Web Projects</h1>
-    <nav>
-        <a href="aboutme/index.html">About Me Page</a>             
-        <a href="wwr/index.html">White Water Rafting Website</a>
-        <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-        <a href="positioning.html">Positioning Activity</a>
-        <a href="#">Personal Website</a>
-        <a href="#">Personal Siteplan</a>
-    </nav>
+    <input type="checkbox" id="menu-toggle">
+    <!-- Side panel -->
+    <div class="side-panel">
+        <label for="menu-toggle" class="close-btn"></label>
+        <h1>Menu</h1>
+        <a href="index.html">Home</a>
+        <a href="/wwr/index.html">WWR Site</a>
+        <a href="/ice/index.html">ICE Challenges</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- Hamburger button -->
+    <label for="menu-toggle" class="menu-btn">
+        <span></span>
+    </label>
+    <img src="images/Aivazovsky_Seascape_with_a_steamer.jpg" class="hero_img">
+    <img src="images/logo.png" class="logo_img">
+    <div class="hero_box">
+        <p>"Reason is the natural organ of truth; imagination is the organ of meaning."</p>
+        <p><em>- C.S. Lewis</em></p>
+    </div>
+    <div class="wwr_card">
+        <h2><a href="/wwr/index.html">WWR</a></h2>
+    </div>
+
+    <div class="ice_card">
+        <h2><a href="/ice/index.html">ICE</a></h2>
+    </div>
+
+    <div class="about_card">
+        <h2><a href="about.html">About</a></h2>
+    </div>
 </body>
 </html>

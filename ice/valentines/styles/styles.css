@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Life+Savers:wght@400;700;800&family=Mouse+Memoirs&display=swap');
+
+body {
+    background-color: #FDF9D8;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: -25;
+}
+
+h1 {
+    font-family: "Mouse Memoirs";
+    font-size: clamp(32px, 15vw, 700px);
+    color: #FDF9D8;
+    text-shadow: 2px 2px 4px #732C1C;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-family: "Emilys Candy";
+  color: #732C1C;  
+}
+
+ul {
+    font-family: "Emilys Candy";
+    color: #732C1C;
+}
+
+p {
+   font-family: "Life Savers"; 
+   text-shadow: 2px 2px 4px white;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        .oaks {
+            border: 5px solid white;
+            border-radius: 50%;
+            margin: 25px;
+            width: 125px;
+            height: 125px;
+        }
+
+        .oaks:hover {
+            border: 5px solid black;
+        }
+
+        .first {
+            border: 5px solid white;
+            border-radius: 50%;
+            margin: 25px;
+            width: 115px;
+            height: 115px;
+        }
+
+        .first:hover {
+            border: 5px solid black;
+        }
+
+        .twelve {
+            border: 5px solid white;
+            border-radius: 50%;
+            margin: 25px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .twelve:hover {
+            border: 5px solid black;
+        }
+
+        .card {
+            border: 5px solid black;
+            border-radius: 10px;
+            background-image: url('images/christus.jpg');
+            background-size: cover;
+            padding: 40px;
+            max-width: 1000px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-rows: auto auto;
+            align-items: center;
+            justify-content: center;
+        }
+        #first-pres {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        }
+        #first-pres h1 {
+        grid-column: 1 / -1;
+        }
+        #quorum {
+        margin-top: 40px;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-items: center;
+        }
+        #quorum h2 {
+        grid-column: 1 / -1;
+        }
+        .body {
+            display: grid;
+            grid-template-columns: 1fr 1500px 1fr;
+            grid-template-rows: 500px auto 1fr;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .h2 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <div class="card">
+        <div id="first-pres">
+            <h1 class="h1">First Presidency</h1>
+            <img src="images/eyring.webp" class="first"> 
+            <img src="images/oaks.webp" class="oaks"> 
+            <img src="images/christofferson.webp" class="first">
+        </div>
+        <div id="quorum">    
+            <h2 class="h2">Quorum of the Twelve Apostles</h2>
+            <img src="images/holland.webp" class="twelve"> 
+            <img src="images/uchtdorf.webp" class="twelve"> 
+            <img src="images/bednar.webp" class="twelve"> 
+            <img src="images/cook.webp" class="twelve">
+            <img src="images/anderson.webp" class="twelve"> 
+            <img src="images/rasband.webp" class="twelve"> 
+            <img src="images/stevenson.webp" class="twelve"> 
+            <img src="images/renlund.webp" class="twelve">
+            <img src="images/gong.webp" class="twelve"> 
+            <img src="images/soares.webp" class="twelve"> 
+            <img src="images/kearon.webp" class="twelve"> 
+            <img src="images/causse.webp" class="twelve">
+        </div>
+    </div>
+</body>
+</html>
