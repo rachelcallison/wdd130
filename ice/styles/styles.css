@@ -265,7 +265,7 @@ body h2 {
     border: 7px solid black;
     border-radius: 15px;
     transition: transform 0.3s ease;
-    background-image: url(../../images/chile.png);
+    background-image: url("../../images/chile.png");
 }
 
 .flag_text {
