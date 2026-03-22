@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter Tight";
+    background-color: #fffcf9;
+    color: #414141;
+    margin: 0;
+}
+
+body h1 {
+    font-family: "Bitcount Prop Double Ink";
+    color: #ef476f;
+    font-size: 4em;
+}
+
+footer {
+    background-color: #06d6a0;
+    color: #26547c;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer a {
+    color: #26547c;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #ffd166;
+}
+
+footer p, footer a {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #06d6a0;
+    color: #26547c;
+    grid-template-columns: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header a {
+    color: #26547c;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 5px 10px;
+    font: 1.2em;
+    text-justify: center;
+}
+
+.links {
+    display: flex; 
+    gap: 20px; 
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #ffd166;
+}
+
+main {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.logo {
+    border-radius: 10px;
+    max-height: 75px;
+    content: center;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.body_image {
+    height: 400px;
+    margin: 20px;
+    border: #ef476f dashed 5px;
+}
