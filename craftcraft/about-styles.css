@@ -66,14 +66,11 @@ header p {
     font-size: 1.2em;
 }
 
-<<<<<<< HEAD
-=======
 header a:hover {
     text-decoration: none;
     color: #ffd166;
 }
 
->>>>>>> 345c3971ab5256feecffea558b87923eb56aaa38
 main {
     text-align: center;
     margin-left: 300px;
@@ -91,7 +88,6 @@ main {
 
 .body_image {
     height: 400px;
-<<<<<<< HEAD
     margin: -2px;
 }
 
@@ -106,8 +102,8 @@ main {
 .copyright {
     color: #ef476f;
 }
-=======
+
     margin: 20px;
     border: #ef476f dashed 5px;
 }
->>>>>>> 345c3971ab5256feecffea558b87923eb56aaa38
+
