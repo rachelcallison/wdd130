@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 1fr;
+}
+
+.heading {
+    display: block;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+h1 {
+    font-family: "Bitcount Prop Double Ink";   
+}
+
+h2 {
+    font-family: "Bitcount Prop Double Ink"; 
+}
+
+p {
+    font-family: "Inter Tight";
+}
+
+.logo {
+    border-radius: 10px;
+    max-height: 75px;
+    content: center;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Footer */
+footer {
+    background-color: #fffcf9;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer p, footer a {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    color: #06d6a0;
+}
+
+.privacy {
+    color: #ffd166;
+}
+
+.copyright {
+    color: #ef476f;
+}
+
+/* header */
+header {
+    background-color: #fffcf9;
+    color: #414141;
+    grid-template-columns: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header a {
+    color: #26547c;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 5px 10px;
+    font: 1.2em;
+    text-justify: center;
+}
+
+.links {
+    display: flex; 
+    gap: 20px; 
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fffcf9;
+}
+
+/* form */
+form {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Inter Tight";
+    top: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: start;
+}
+
+.form-container {
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #6a85b6;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #6a85b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5a74a3;
+}
+
+/* Columns */
+.columns {
+  column-count: 2;
+  column-gap: 15px;
+  padding: 20px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-items: center;
+}
+
+.columns >* {
+    break-inside: avoid;
+    margin-bottom: 15px;
+}
+
+.columns img, .carousel {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  break-inside: avoid;
+}
+
+/* Hide all extra images by default */
+.extra-images {
+  display: none; /* hidden by default */
+}
+
+#loadMoreToggle {
+  display: none;
+}
+
+/* Show the extra images when checked */
+#loadMoreToggle:checked + .extra-images {
+  display: block;
+}
+
+/* Hide the load more button when checked */
+#loadMoreToggle:checked ~ .load-more-button {
+  display: none;
+}
+
+.load-more-button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #6a85b6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  margin: 150px auto 0 auto;
+  padding: 15px;
+}
+
+/* Carousel */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.carousel input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  object-fit: cover;
+}
+
+/* Slider 1 */
+#slide1:checked ~ .slides { transform: translateX(0%); }
+#slide2:checked ~ .slides { transform: translateX(-100%); }
+#slide3:checked ~ .slides { transform: translateX(-200%); }
+
+/* Slider 2 */
+#slide4:checked ~ .slides { transform: translateX(0%); }
+#slide5:checked ~ .slides { transform: translateX(-100%); }
+
+/* Carousel navigation dots */
+.navigation {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.navigation label {
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}

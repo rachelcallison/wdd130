@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CraftCraft</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="CraftCraft Logo" class="logo">
+        <nav class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="my_page.html">My Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="heading">
+        <h1>Join us</h1>
+        <p>Share and discover crafts with tutorials and materials — 
+            all in one place.
+        </p>
+        </div>
+
+        <form class="form-container">
+            <h2>Create Account</h2>
+            <p>
+                Create your account to save your favorite post,
+                post your own craft, chat with other people, and
+                so on.
+            </p>
+
+            <div class="input-group">
+                <label for="id">Your ID:</label>
+                <input type="text" id="id" placeholder="name">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" placeholder="example@email.com">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="text" id="password" placeholder="password">
+            </div>
+
+            <div class="input-group">
+                <label for="interest"> What are you interested in?</label>
+                <select id="interest">
+                    <option value="">Select option</option>
+                    <option value="crochet">Crochet</option>
+                    <option value="painting">Painting</option>
+                    <option value="woodworking">Woodworking</option>
+                    <option value="pottery">Pottery</option>
+                </select>
+            </div>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <div class="columns">
+            <!-- Batch 1: always visible -->
+            <img src="images/image2.png" alt="Beaded Bear">
+            <img src="images/image10.jpg" alt="Pots">
+            <img src="images/image14.jpg" alt="Pumpkin Painting">
+
+            <!-- First carousel -->
+            <div class="carousel">
+                <input type="radio" name="slider1" id="slide1" checked>
+                <input type="radio" name="slider1" id="slide2">
+                <input type="radio" name="slider1" id="slide3">
+
+                <div class="slides">
+                <img src="images/image1.png" class="slide" alt="Moon Bag">
+                <img src="images/image4.png" class="slide" alt="Bunny Bag">
+                <img src="images/image5.png" class="slide" alt="Monsters Inc Bag">
+                </div>
+
+                <div class="navigation">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                </div>
+            </div>
+
+            <img src="images/image15.jpg" alt="Avocado Painting">
+            <img src="images/image3.png" alt="Granny Squares">
+
+            <img src="images/image6.png" alt="Beaded Bracelet">
+            
+            <div class="carousel">
+                <input type="radio" name="slider2" id="slide4" checked>
+                <input type="radio" name="slider2" id="slide5">
+
+                <div class="slides">
+                    <img src="images/image7.png" class="slide" alt="Crochet Bear">
+                    <img src="images/image8.png" class="slide" alt="Crochet Snoopy">
+                </div>
+
+                <div class="navigation">
+                    <label for="slide4"></label>
+                    <label for="slide5"></label>
+                </div>
+            </div>
+
+            <input type="checkbox" id="loadMoreToggle">
+            <div class="extra-images">
+                <img src="images/image11.jpg" alt="Lamb Carving">
+                <img src="images/image16.jpg" alt="Plant Pot">
+                <img src="images/image9.jpg" alt="Spice Pots">
+                <img src="images/image12.jpg" alt="Girl Painting">
+                <img src="images/image13.jpg" alt="Fox Painting">
+            </div>
+            <label for="loadMoreToggle" class="load-more-button">Load More</label>
+        </div>
+    </main>
+
+    <footer>
+        <img src="images/logo.png" alt="CraftCraft logo" class="logo">
+        <div class="footer-text">
+            <a href="#" class="terms">Terms of Service</a>
+            <a href="#" class="privacy">Privacy Policy</a>
+            <p class="copyright">© 2026 Alisa Ishizaka</p>
+        </div>    
+    </footer>
+</body>
+</html>
